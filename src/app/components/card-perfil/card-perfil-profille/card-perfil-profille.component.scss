@@ -1,0 +1,86 @@
+.card-perfil {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.card-perfil-nome {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 48px;
+  text-align: center;
+  color: #252525;
+}
+.card-perfil-cargo {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  flex-direction: row;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 30px;
+  background: linear-gradient(#024383, #0967c3);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+}
+.card-perfil-cargo-icone {
+  width: 20px;
+  height: 20px;
+}
+.informacoes-adicional {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  gap: 15px;
+}
+
+.informacoes-itens {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+.informacoes-itens-titulo {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.informacoes-itens-informacao {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 29px;
+  white-space: nowrap;
+  text-align: center;
+
+  color: #252525;
+}
+
+.foto-perfil {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 168.5px;
+}

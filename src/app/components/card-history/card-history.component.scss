@@ -1,0 +1,31 @@
+.card-history {
+  background: #f1f1f1;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding: 5px;
+  height: 100%;
+}
+.card-titulo {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 28px;
+  text-align: center;
+  color: #024383;
+  padding-top: 20px;
+}
+.card-text{
+display: flex;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height:161%;
+text-align: justify;
+padding: 20px;
+color: #000000;
+}

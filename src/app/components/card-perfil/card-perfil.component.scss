@@ -1,0 +1,36 @@
+.perfil {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 20px;
+  padding: 5px;
+  height: 100%;
+}
+.perfil-itens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  gap: 5px;
+
+}
+
+@media (min-width: 526px) {
+  .perfil-itens {
+    flex-wrap: nowrap;
+    padding: 0;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .perfil-itens {
+    flex-wrap: wrap;
+
+  }
+}

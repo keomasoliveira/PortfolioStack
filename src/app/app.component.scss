@@ -1,0 +1,23 @@
+.content-perfil {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5% 5% 5% 5%;
+}
+
+@media (min-width: 1000px) {
+  .content-perfil {
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    align-self:stretch;
+    white-space:pre-wrap;
+    flex-direction: row;
+    gap: 5px;
+    padding: 5% 5% 5% 5%;
+    height: 100%;
+  }
+}

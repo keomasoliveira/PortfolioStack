@@ -1,0 +1,40 @@
+.card-rede-social{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  padding: 6px;
+
+}
+.rede-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-gap: 10px;
+  gap: 10px;
+
+
+}
+.rede-social-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 5px 20px 5px 20px;
+
+}
+.rede-social-item-img {
+  width: 40px;
+  height: 40px;
+}
+.rede-social-titulo{
+
+  font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: justify;
+    padding-bottom: 4px;
+}
