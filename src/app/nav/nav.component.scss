@@ -46,6 +46,11 @@
   font-size: 25px;
   color: #7b7a82;
   white-space: nowrap;
+
+  .side-nav-menu-item:hover {
+    background-color: var(--cor-principal);
+    border-radius: 17px;
+  }
 }
 @media (min-width: 600px) {
   .side-nav {
