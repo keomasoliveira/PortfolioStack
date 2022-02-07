@@ -11,7 +11,11 @@
 }
 .rolagem{
   overflow-y: scroll;
-  height: 90%;
+  height: 85%;
+  background: #e4e4e4;
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 14px;
 }
 .card-titulo {
   font-family: Lato;
