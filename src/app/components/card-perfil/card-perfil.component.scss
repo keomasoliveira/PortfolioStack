@@ -15,13 +15,13 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 10px;
+  padding: 5px;
   gap: 5px;
 }
 
 @media (min-width: 526px) {
   .perfil{
-    height: 500px;
+    height: 620px;
   }
   .perfil-itens {
     flex-wrap: nowrap;
