@@ -5,7 +5,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-justify-content: space-around;
+ justify-content: space-around;
   padding: 5px;
   height: 800px;
 }
@@ -38,4 +38,16 @@ line-height:161%;
 text-align: justify;
 padding: 20px;
 color: #000000;
+}
+@media (min-width: 400) {
+  .rolagem{
+    display: flex;
+    overflow-y: scroll;
+    height: 650px;
+    background: #e4e4e4;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 14px;
+  }
+
 }
