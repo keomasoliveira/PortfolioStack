@@ -30,7 +30,9 @@
 }
 
 @media (min-width: 1000px) {
-
+  .perfil{
+    height: 800px;
+  }
   .perfil-itens {
     flex-wrap: wrap;
     padding: 5px;
