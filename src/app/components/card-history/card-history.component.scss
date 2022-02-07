@@ -5,11 +5,13 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-
+justify-content: space-around;
   padding: 5px;
   height: 800px;
 }
 .rolagem{
+  display: flex;
+  align-items: center;
   overflow-y: scroll;
   height: 85%;
   background: #e4e4e4;
