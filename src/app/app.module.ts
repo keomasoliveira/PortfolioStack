@@ -4,12 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
-import { CardPerfilComponent } from './components/card-perfil/card-perfil.component';
-import { CardEstudosComponent } from './components/card-perfil/card-estudos/card-estudos.component';
-import { CardPerfilProfilleComponent } from './components/card-perfil/card-perfil-profille/card-perfil-profille.component';
-import { CardRedeSocialComponent } from './components/card-perfil/card-rede-social/card-rede-social.component';
-import { CardHistoryComponent } from './components/card-history/card-history.component';
+import { CardPerfilComponent } from './components/home-page/card-perfil/card-perfil.component';
+import { CardEstudosComponent } from './components/home-page/card-perfil/card-estudos/card-estudos.component';
+import { CardPerfilProfilleComponent } from './components/home-page/card-perfil/card-perfil-profille/card-perfil-profille.component';
+import { CardRedeSocialComponent } from './components/home-page/card-perfil/card-rede-social/card-rede-social.component';
+import { CardHistoryComponent } from './components/home-page/card-history/card-history.component';
 
+import { HttpClientModule } from '@angular/common/http';
+import { ServiceGitService } from './services/service-git.service';
+import { SharedService } from './models/global';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +24,12 @@ import { CardHistoryComponent } from './components/card-history/card-history.com
     CardPerfilProfilleComponent,
     CardRedeSocialComponent,
     CardEstudosComponent,
-    CardHistoryComponent
+    CardHistoryComponent,
+    PortfolioComponent,
+    HomePageComponent
   ],
-  imports: [BrowserModule, AppRoutingModule,],
-  providers: [],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  providers: [ServiceGitService,SharedService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

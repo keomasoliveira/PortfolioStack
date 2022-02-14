@@ -1,28 +1,30 @@
 .card-history {
-  background: #f1f1f1;
-  border-radius: 20px;
+  background: #fff;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
- justify-content: space-around;
+  gap: 20px;
   padding: 5px;
-  height: 800px;
+  height: 600px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.08);
 }
 .rolagem{
   display: flex;
   overflow-y: scroll;
-  height: 620px;
+  height: 80%;
   background: #e4e4e4;
   border: 1px solid #d8d8d8;
   box-sizing: border-box;
-  border-radius: 14px;
+  border-radius: 5px;
+
 }
 .card-titulo {
   font-family: Lato;
   font-style: normal;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 28px;
   text-align: center;
   color: #024383;
@@ -34,20 +36,20 @@ font-family: Lato;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
-line-height:161%;
+line-height:140%;
 text-align: justify;
 padding: 20px;
 color: #000000;
 }
-@media (min-width: 400) {
+@media (min-width: 400px) {
   .rolagem{
     display: flex;
     overflow-y: scroll;
-    height: 700px;
+
     background: #e4e4e4;
     border: 1px solid #d8d8d8;
     box-sizing: border-box;
-    border-radius: 14px;
+
   }
 
 }

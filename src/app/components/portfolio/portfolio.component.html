@@ -1,0 +1,23 @@
+<div class="card-history">
+  <div class="card-titulo">123123</div>
+  <div class="cards-list">
+    <a href="{{ item.html_url }}" *ngFor="let item of gitParse">
+      <div class="card">
+        <div class="card_image">
+          <img
+            src="https://christianvarga.com/wp-content/uploads/2012/06/octocat_iphone_blue.jpg"
+          />
+        </div>
+        <div class="skills">
+          <div class="card_title title-white">
+            <p>{{ item.name | uppercase }}</p>
+          </div>
+
+          <ul>
+            <li>{{ item.description }}</li>
+          </ul>
+      </div>
+      </div>
+    </a>
+  </div>
+</div>

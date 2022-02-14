@@ -1,0 +1,40 @@
+*{
+  color: #fff;
+}
+
+
+
+
+
+.skills {
+
+  font-family: Montserrat;
+	background-color: #001c38;
+	text-align: center;
+  text-decoration: none;
+	padding: 15px;
+  border-radius:0 0 5px 5px;
+
+}
+
+.skills ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 15px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills ul li {
+
+
+  border: 1px solid #2f557a;
+	border-radius: 2px;
+
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
+
+}
+
