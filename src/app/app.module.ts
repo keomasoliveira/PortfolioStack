@@ -15,6 +15,7 @@ import { ServiceGitService } from './services/service-git.service';
 import { SharedService } from './models/global';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HomePageComponent } from './components/home-page/home-page.component';
     CardEstudosComponent,
     CardHistoryComponent,
     PortfolioComponent,
-    HomePageComponent
+    HomePageComponent,
+    FooterComponent
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [ServiceGitService,SharedService],

@@ -1,10 +1,32 @@
+a {
+  text-decoration: none;
+}
+.side-footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.side-footer-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+  box-shadow: 0 0 0 1px rgba(47, 85,122,0.2);
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 5px;
+}
 .card-rede-social{
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: nowrap;
-  padding: 20px;
+
 }
 .rede-social {
   display: flex;
@@ -17,14 +39,15 @@
 
 }
 .rede-social-item {
-  background: #ffffff;
+  box-shadow: 0 0 0 1px rgba(47, 85,122,0.2);
   border-radius: 8px;
   padding: 5px 20px 5px 20px;
 
 }
 .rede-social-item-img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
+
 }
 .rede-social-titulo{
 
