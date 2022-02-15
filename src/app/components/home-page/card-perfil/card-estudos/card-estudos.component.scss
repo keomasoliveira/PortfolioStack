@@ -9,10 +9,10 @@
 .skills {
 
   font-family: Montserrat;
-	background-color: #001c38;
+	background-color: var(--cor-principal);
 	text-align: center;
   text-decoration: none;
-	padding: 15px;
+	padding: 13px;
   border-radius:0 0 5px 5px;
 
 }
@@ -29,7 +29,7 @@
 .skills ul li {
 
 
-  border: 1px solid #2f557a;
+  border: 1px solid #5e84aa;
 	border-radius: 2px;
 
 	font-size: 12px;

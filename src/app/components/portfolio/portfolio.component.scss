@@ -5,10 +5,11 @@
 }
 .cards-list {
   z-index: 0;
-  gap: 20px 0;
+  gap: 20px 20px;
   display: flex;
   padding: 10px;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 
   flex-wrap: wrap;
 }

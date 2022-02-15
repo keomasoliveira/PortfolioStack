@@ -1,34 +1,63 @@
 .card-history {
-  background: #fff;
+  background: #024383;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   gap: 20px;
-  padding: 5px;
+  padding: 5px 0 0 0;
   height: 559px;
   box-shadow: 0 0 0 1px rgba(47, 85,122,0.2);
+}
+.card-history-topo{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+height: 20%;
 }
 .rolagem{
   display: flex;
   overflow-y: scroll;
-  height: 80%;
-  background: #e4e4e4;
+  height: 75%;
+  background: rgb(252, 252, 252);
   box-shadow: 0 0 0 1px rgba(47, 85,122,0.2);
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0 0 5px 5px;
+  padding: 10px;
 
 }
+#style-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(47, 85,122,0.2);
+
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #e4e4e4;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+
+
+	background-color: var(--cor-principal);
+}
+
 .card-titulo {
   font-family: Lato;
   font-style: normal;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 28px;
   text-align: center;
-  color: #024383;
-  padding-top: 20px;
+  color: #ffffff;
+
 }
 .card-text{
 display: flex;
@@ -39,15 +68,15 @@ font-size: 20px;
 line-height:140%;
 text-align: justify;
 padding: 5px;
-color: #000000;
+color: #1a1a1a;
 }
 @media (min-width: 400px) {
   .rolagem{
     display: flex;
     overflow-y: scroll;
 
-    background: #e4e4e4;
-    border: 1px solid #d8d8d8;
+
+
     box-sizing: border-box;
 
   }
